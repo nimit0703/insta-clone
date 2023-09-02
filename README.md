@@ -1,27 +1,61 @@
-# Instagram
+# Instagram Clone Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
+## Description
 
-## Development server
+This repository contains the code for my Instagram clone project. The project aims to replicate the core features and functionality of the popular social media platform Instagram, including user registration, photo sharing, liking, commenting, and more.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Table of Contents
 
-## Code scaffolding
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Features
 
-## Build
+- User Registration and Authentication
+- Profile Creation and Editing
+- Uploading and Sharing Photos
+- Liking and Commenting on Posts
+- Following and Followers System
+- News Feed and Explore Page
+- Direct Messaging
+- Notifications
+- Search Functionality
+- User Settings
+- Responsive Design for Mobile and Desktop
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Technologies Used
 
-## Running unit tests
+- Frontend:
+  - HTML
+  - CSS
+  - JavaScript (React.js)
+  - Redux for State Management
+  - Axios for API Requests
+  - React Router for Navigation
+  - Material-UI for UI Components
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Backend:
+  - Node.js
+  - Express.js
+  - MongoDB for Database
+  - Mongoose for ODM
+  - Passport.js for Authentication
+  - JSON Web Tokens (JWT) for Session Management
+  - Multer for File Uploads
 
-## Running end-to-end tests
+- Deployment and Hosting:
+  - Heroku (Backend)
+  - Netlify (Frontend)
+  - MongoDB Atlas (Database)
+  - Amazon S3 (For storing uploaded images)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Installation
 
-## Further help
+1. Clone the repository:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+   ```bash
+   https://github.com/nimit0703/insta-clone.git
