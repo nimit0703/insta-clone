@@ -1,0 +1,28 @@
+.nav-img{
+    display: inline-block;
+    background-blend-mode:darken;
+}
+.insta-nav{
+    margin: 10% 15%;
+}
+.insta-nav a{
+    display: inline;
+    color: #FFFFFF;
+}
+
+.insta-nav-comp{
+    margin: 3% 0%;
+    border-radius: 20px;
+    /* background-color: aqua; */
+}
+.insta-nav-comp:hover{
+    margin: 3% 0%;
+    border-radius: 8px;
+    background-color:#1b1b1b;
+}
+
+i{
+    font-size: 2em;
+    background:transparent;
+    margin-right: 2%;
+}
