@@ -1,0 +1,9 @@
+.middle-pane{
+    width: 50%;
+    margin-left: 20%;
+    top: 0;
+    margin-right: 30%;
+    overflow-y: auto;
+    
+    /* color: aliceblue; */
+}

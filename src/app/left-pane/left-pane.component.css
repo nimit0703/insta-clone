@@ -1,0 +1,12 @@
+.left-pane{
+    width: 20%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh; /* Full viewport height */
+}
+.left-pane img {
+    width: 150px;
+    overflow: hidden;
+    margin: 5% 20%;
+}
