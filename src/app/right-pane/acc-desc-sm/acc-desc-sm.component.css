@@ -35,3 +35,6 @@
     position: fixed;
     right: 7%;
 }
+.small-font{
+    font-size: small;
+}

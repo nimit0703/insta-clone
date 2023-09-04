@@ -8,4 +8,5 @@ import { AccDescSm } from '../acc-desc-sm.model';
 })
 export class AccDescSmComponent {
   @Input() acc:AccDescSm;
+  number:number= Math.floor(Math.random()*100);
 }
