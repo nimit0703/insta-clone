@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Input } from '@angular/core';
 import { AccDescSm } from '../acc-desc-sm.model';
 
 @Component({
@@ -7,5 +7,5 @@ import { AccDescSm } from '../acc-desc-sm.model';
   styleUrls: ['./acc-desc-sm.component.css']
 })
 export class AccDescSmComponent {
-  acc:AccDescSm;
+  @Input() acc:AccDescSm;
 }

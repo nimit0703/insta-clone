@@ -1,9 +1,9 @@
 <div class="right-pane">
+    <app-acc-desc-sm [acc]='ownProfile'></app-acc-desc-sm>
     
-    <p class="my-gray">Suggetion for you         <a class="mx-5 text-decoration-none" style="color: #FFFFFF;">See all</a> </p>
-
-
-        <app-acc-desc-sm *ngFor="let a of accs"></app-acc-desc-sm>
-
-
+    <p class="my-gray mx-3 my-2">Suggetion for you        
+        <a class="mx-l-110 text-decoration-none" style="color: #FFFFFF;">See all</a>
+    </p>
+    
+    <app-acc-desc-sm *ngFor="let a of accs" [acc]="a"></app-acc-desc-sm>
 </div>

@@ -8,11 +8,13 @@ import { AccDescSm } from './acc-desc-sm.model';
 })
 export class RightPaneComponent {
   accs: AccDescSm[] =[
-    new AccDescSm('rampal','ramesh','profile1'),
-    new AccDescSm('James_62','focs','profile1'),
-    new AccDescSm('carlos56.mathew','indiana21','profile1'),
-    new AccDescSm('adam01','eva02','profile1'),
-    new AccDescSm('pollad','breathat','profile1'),
+    new AccDescSm('rampal','ramesh','person_1','Follow'),
+    new AccDescSm('James_62','focs','person_2','Follow'),
+    new AccDescSm('carlos56.mathew','indiana21','person_3','Follow'),
+    new AccDescSm('adam01','eva02','person_4','Follow'),
+    new AccDescSm('pollad','breathat','staff-1','Follow'),
   ];
+
+  ownProfile: AccDescSm = new AccDescSm('_chapal.chor420','દાદાનો ગટુડો','person_1','Switch');
 
 }

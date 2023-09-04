@@ -27,9 +27,11 @@
 
 .pro-option {
     display: inline-block;
-    margin-top: 25px;
+    /* margin-top: 25px; */
 }
 
 .pro-option p {
     color: #1F76D7;
+    position: fixed;
+    right: 7%;
 }
