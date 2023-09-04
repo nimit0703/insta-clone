@@ -7,6 +7,7 @@ import { LeftPaneComponent } from './left-pane/left-pane.component';
 import { RightPaneComponent } from './right-pane/right-pane.component';
 import { MiddlePaneComponent } from './middle-pane/middle-pane.component';
 import { NavComponent } from './left-pane/nav/nav.component';
+import { AccDescSmComponent } from './right-pane/acc-desc-sm/acc-desc-sm.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NavComponent } from './left-pane/nav/nav.component';
     LeftPaneComponent,
     RightPaneComponent,
     MiddlePaneComponent,
-    NavComponent
+    NavComponent,
+    AccDescSmComponent
   ],
   imports: [
     BrowserModule,

@@ -5,3 +5,7 @@
     top: 0;
     height: 100vh; /* Full viewport height */
 }
+
+.right-pane p{
+    margin: 0;
+}
