@@ -3,10 +3,10 @@ public user:string
 public location:string
 public timeBefore:string
 public feed:string
-public likes:number
+public likes:string
 public caption:string
 
-constructor(user:string,location:string ,timeBefore:string, feed:string, likes:number ,caption:string ){
+constructor(user:string,location:string ,timeBefore:string, feed:string, likes:string ,caption:string ){
     this.user = user;
     this.timeBefore = timeBefore;
     this.feed = feed;

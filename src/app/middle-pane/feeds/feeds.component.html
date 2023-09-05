@@ -1,76 +1,37 @@
 <div class="">
   <div class="feed-area container">
-    <div class="feeds">
+    <div class="feeds" *ngFor="let f of feeds">
       <div class="feed-uperpart">
         <div class="">
           <div class="feed-pro-img">
             <img
-              src="../../../assets/profiles/person_1.jpg"
+              src="../../../assets/posts/{{f.feed}}.jpg"
               class="circle img-fluid rounded-circle"
               alt="{{ 'd' }}"
             />
           </div>
         </div>
         <div class="user">
-          <p class="user-name">nimit <span class="time"> • 24m</span></p>
-          <p class="location">Ahmedabad</p>
+          <p class="user-name">{{f.user}} <span class="time"> • {{f.timeBefore}}</span></p>
+          <p class="location">{{f.location}}</p>
         </div>
         <div class="more-icon">
           <i class="bi bi-three-dots"></i>
         </div>
       </div>
       <div class="feed-middlepart">
-        <img src="../../../assets/posts/p-1.jpg" alt="" class="feed-post">
+        <img src="../../../assets/posts/{{f.feed}}.jpg" alt="" class="img-fluid feed-post">
       </div>
       <div class="feed-lowerpart">
         <i class="bi bi-heart like"></i>
         <span class="cmt"><i class="bi bi-chat cmt"></i></span>
         <span class="bookmark"> <i class="bi bi-bookmark "></i></span>
         <div class="likes">
-            <p>19 likes</p>
-            <p>nimit   "<span class="user-caption">lovely days</span>'</p>
+            <p>{{f.likes}} likes</p>
+            <p>{{f.user}}   "<span class="user-caption">lovely days</span>'</p>
         </div>
         <div class="comments">
-            <p class="comment">view all +3 comments</p>
-        </div>
-        <div class="add-comments">
-            <p class="add-comment">Add a comment</p>
-        </div>
-      </div>
-      <div class="bottom-line"></div>
-    </div>
-    <div class="feeds">
-      <div class="feed-uperpart">
-        <div class="">
-          <div class="feed-pro-img">
-            <img
-              src="../../../assets/profiles/person_1.jpg"
-              class="circle img-fluid rounded-circle"
-              alt="{{ 'd' }}"
-            />
-          </div>
-        </div>
-        <div class="user">
-          <p class="user-name">nimit <span class="time"> • 24m</span></p>
-          <p class="location">Ahmedabad</p>
-        </div>
-        <div class="more-icon">
-          <i class="bi bi-three-dots"></i>
-        </div>
-      </div>
-      <div class="feed-middlepart">
-        <img src="../../../assets/posts/p-1.jpg" alt="" class="feed-post">
-      </div>
-      <div class="feed-lowerpart">
-        <i class="bi bi-heart like"></i>
-        <span class="cmt"><i class="bi bi-chat cmt"></i></span>
-        <span class="bookmark"> <i class="bi bi-bookmark "></i></span>
-        <div class="likes">
-            <p>19 likes</p>
-            <p>nimit   "<span class="user-caption">lovely days</span>'</p>
-        </div>
-        <div class="comments">
-            <p class="comment">view all +3 comments</p>
+            <p class="comment">view all +{{f.likes}} comments</p>
         </div>
         <div class="add-comments">
             <p class="add-comment">Add a comment</p>

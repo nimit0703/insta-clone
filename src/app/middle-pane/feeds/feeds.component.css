@@ -26,6 +26,7 @@
   }
 
 .user p{
+    width: 300px;
     margin-top: 1px;
     margin-bottom: 0;
     margin-left: 7px;
@@ -67,6 +68,8 @@
 }
 
 .likes p{
+    width:300px;
+    height: 30px;
     font-size: 16px;
     margin: 0;
 }
