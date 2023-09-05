@@ -4,7 +4,7 @@
   flex-direction: row;
   flex-wrap: nowrap;
   position: relative;
-  margin: 6% 0;
+  margin: 3% 0;
   overflow-x: scroll; /* Enable horizontal scrolling when content overflows */
   white-space: nowrap; /* Prevent images from wrapping to the next line */
   /* animation: scrollAnimation 0.2s ease-in-out; /* Smooth scroll animation */
