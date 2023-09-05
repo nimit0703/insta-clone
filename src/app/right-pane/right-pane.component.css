@@ -1,5 +1,6 @@
 .right-pane{
     width: 25%;
+    padding-top: 30px;
     position: fixed;
     right: 0;
     top: 0;

@@ -8,6 +8,8 @@ import { RightPaneComponent } from './right-pane/right-pane.component';
 import { MiddlePaneComponent } from './middle-pane/middle-pane.component';
 import { NavComponent } from './left-pane/nav/nav.component';
 import { AccDescSmComponent } from './right-pane/acc-desc-sm/acc-desc-sm.component';
+import { StoriesComponent } from './middle-pane/stories/stories.component';
+import { FeedsComponent } from './middle-pane/feeds/feeds.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { AccDescSmComponent } from './right-pane/acc-desc-sm/acc-desc-sm.compone
     RightPaneComponent,
     MiddlePaneComponent,
     NavComponent,
-    AccDescSmComponent
+    AccDescSmComponent,
+    StoriesComponent,
+    FeedsComponent
   ],
   imports: [
     BrowserModule,
