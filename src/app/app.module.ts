@@ -10,7 +10,16 @@ import { NavComponent } from './left-pane/nav/nav.component';
 import { AccDescSmComponent } from './right-pane/acc-desc-sm/acc-desc-sm.component';
 import { StoriesComponent } from './middle-pane/stories/stories.component';
 import { FeedsComponent } from './middle-pane/feeds/feeds.component';
+import { RouterModule, Routes } from '@angular/router';
+import { FirstPageComponent } from './first-page/first-page.component';
+import { HomeComponent } from './components/home/home.component';
 
+
+
+const appRoutes: Routes = [
+  {path: 'home' , component:HomeComponent},
+  {path: '' , component:FirstPageComponent},
+];
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,11 +29,14 @@ import { FeedsComponent } from './middle-pane/feeds/feeds.component';
     NavComponent,
     AccDescSmComponent,
     StoriesComponent,
-    FeedsComponent
+    FeedsComponent,
+    FirstPageComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(appRoutes),
   ],
   providers: [],
   bootstrap: [AppComponent]
