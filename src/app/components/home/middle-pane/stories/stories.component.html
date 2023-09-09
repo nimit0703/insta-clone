@@ -1,0 +1,26 @@
+<div class="container-fluid">
+  <div class="custom-row">
+    <div class="left-scroll" (mouseover)="scrollLeft()">
+      <i class="bi bi-caret-left-fill"></i>
+    </div>
+    <div class="story-container d-flex flex-row" #storyContainer>
+      <div class="story-content" *ngFor="let p of profiles">
+        <div class="story image-wrapper">
+          <img
+            src="../../../assets/profiles/{{ p.img }}.jpg"
+            alt=""
+            class="circle img-fluid rounded-circle"
+          />
+        </div>
+        <p class="user-name">{{ p.name }}</p>
+      </div>
+    </div>
+    <div
+      class="right-scroll"
+      (mouseover)="scrollRight()"
+      (click)="scrollRight()"
+    >
+      <i class="bi bi-caret-right-fill"></i>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,34 @@
+.right-pane{
+    width: 25%;
+    padding-top: 30px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh; /* Full viewport height */
+}
+
+.right-pane p{
+    margin: 0;
+}
+
+.mx-l-110{
+    margin-left: 111px;
+}
+
+.other-likes{
+    padding-right: 60px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.other p{
+    margin: 0;
+    color: #767676;
+    font-size: small;
+    margin-left: 15px;
+}
+.other a{
+    font-size: smaller;
+    color: #767676;
+    text-decoration: none;
+    
+}
