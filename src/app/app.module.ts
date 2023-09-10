@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, createComponent } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -26,8 +26,16 @@ import { MoreComponent } from './components/more/more.component';
 
 
 const appRoutes: Routes = [
-  {path: 'home' , component:HomeComponent},
   {path: '' , component:FirstPageComponent},
+  {path: 'home' , component:HomeComponent},
+  {path: 'search' , component:SearchComponent},
+  {path: 'explore' , component:ExploreComponent},
+  {path: 'create' , component:CreateComponent},
+  {path: 'message' , component:MessageComponent},
+  {path: 'more' , component:MoreComponent},
+  {path: 'notification' , component:NotificationComponent},
+  {path: 'profile' , component:ProfileComponent},
+  {path: 'reel' , component:ReelComponent},
 ];
 @NgModule({
   declarations: [
