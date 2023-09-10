@@ -1,4 +1,4 @@
-# [Instagram Clone Project 🖱️](https://github.com/nimit0703/insta-clone)
+# [Instagram Clone Project 🖱️](https://nimit0703.github.io/insta-clone/home)
 
 ## Description
 
