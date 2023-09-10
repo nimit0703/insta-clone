@@ -25,17 +25,19 @@ import { MoreComponent } from './components/more/more.component';
 
 
 
+
 const appRoutes: Routes = [
-  {path: '' , component:FirstPageComponent},
-  {path: 'home' , component:HomeComponent},
-  {path: 'search' , component:SearchComponent},
-  {path: 'explore' , component:ExploreComponent},
-  {path: 'create' , component:CreateComponent},
-  {path: 'message' , component:MessageComponent},
-  {path: 'more' , component:MoreComponent},
-  {path: 'notification' , component:NotificationComponent},
-  {path: 'profile' , component:ProfileComponent},
-  {path: 'reel' , component:ReelComponent},
+  { path: '', redirectTo: '/home', pathMatch: 'full' }, // Redirect empty path to 'home'
+  { path: 'home', component: HomeComponent },
+  { path: 'search', component: SearchComponent },
+  { path: 'explore', component: ExploreComponent },
+  { path: 'create', component: CreateComponent },
+  { path: 'message', component: MessageComponent },
+  { path: 'more', component: MoreComponent },
+  { path: 'notification', component: NotificationComponent },
+  { path: 'profile', component: ProfileComponent },
+  { path: 'reel', component: ReelComponent },
+  { path: '**', redirectTo: '/home' } // Handle any other route by redirecting to 'home'
 ];
 @NgModule({
   declarations: [
