@@ -32,26 +32,11 @@ This repository contains the code for my Instagram clone project. The project ai
 - Frontend:
   - HTML
   - CSS
-  - JavaScript (React.js)
+  - JavaScript (Angular)
   - Redux for State Management
-  - Axios for API Requests
-  - React Router for Navigation
-  - Material-UI for UI Components
+  - Angular Router for Navigation
+  - Bootstarp-UI for UI Components
 
-- Backend:
-  - Node.js
-  - Express.js
-  - MongoDB for Database
-  - Mongoose for ODM
-  - Passport.js for Authentication
-  - JSON Web Tokens (JWT) for Session Management
-  - Multer for File Uploads
-
-- Deployment and Hosting:
-  - Heroku (Backend)
-  - Netlify (Frontend)
-  - MongoDB Atlas (Database)
-  - Amazon S3 (For storing uploaded images)
 
 ## Installation
 
