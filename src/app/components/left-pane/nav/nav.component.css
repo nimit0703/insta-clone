@@ -35,9 +35,10 @@ i{
 }
 .text{
     font-size: 1.25em;
+    width: 110px;
 }
 
-.more-op{
+/* .more-op{
     position: fixed;
     bottom: 2%;
     margin-left:1%;
@@ -53,4 +54,39 @@ i{
 
 .more-op:hover{
     background-color:#1b1b1b;
+} */
+
+
+
+
+@media (max-width: 1376px){
+
+    .insta-nav-comp{
+        font-size: 0.75em;
+    }
+
+    .text{
+        font-size: 1.25em;
+    }
+    
 }
+@media (max-width: 1216px){
+
+    .text{
+        font-size: 1em;
+    }
+    
+}
+@media (max-width: 550px){
+    .insta-nav{
+        margin: 30% 27%;
+    }
+    .text{
+        display: none;
+    }
+
+    
+    
+}
+
+

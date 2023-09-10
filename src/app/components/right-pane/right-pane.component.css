@@ -7,12 +7,9 @@
     height: 100vh; /* Full viewport height */
 }
 
-.right-pane p{
-    margin: 0;
-}
 
-.mx-l-110{
-    margin-left: 111px;
+.mx-l-85{
+    margin-left: 85px;
 }
 
 .other-likes{
@@ -30,5 +27,19 @@
     font-size: smaller;
     color: #767676;
     text-decoration: none;
+    
+}
+
+.suggetion{
+    margin-top: 10px;
+}
+
+
+@media (max-width: 980px){
+
+
+    .right-pane{
+        display: none;
+    }
     
 }

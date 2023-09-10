@@ -8,3 +8,35 @@
     
     /* color: aliceblue; */
 }
+
+@media (max-width: 1216px){
+
+    
+    .middle-pane{
+        width: 75%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+}
+
+@media (max-width: 980px){
+
+
+    .middle-pane{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+
+@media (max-width: 550px){
+    
+
+    .middle-pane{
+        width: 115%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+}

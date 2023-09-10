@@ -11,3 +11,32 @@
     overflow: hidden;
     margin: 5% 20%;
 }
+
+
+@media (max-width: 1216px){
+
+    .left-pane img {
+        width: 105px;
+        overflow: hidden;
+        margin: 5% 20%;
+    }
+    
+}
+@media (max-width: 980px){
+
+    .left-pane {
+        width:20%;
+    }
+    
+}
+
+@media (max-width: 550px){
+
+    .left-pane {
+        width:10%;
+    }
+    .left-pane img{
+        display: none;
+    } 
+    
+}

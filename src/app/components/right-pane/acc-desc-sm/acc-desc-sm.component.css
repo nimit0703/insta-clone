@@ -17,8 +17,10 @@
 
 .pro-desc-sm {
     display: inline-block;
+    width: 105px;
     margin-top: 10px;
     margin-right: 50px;
+    font-size: 0.75em;
 }
 
 .pro-desc-sm p {
@@ -32,8 +34,8 @@
 
 .pro-option p {
     color: #1F76D7;
-    position: fixed;
-    right: 7%;
+    /* position: fixed; */
+    /* right: 7%; */
 }
 .small-font{
     font-size: small;

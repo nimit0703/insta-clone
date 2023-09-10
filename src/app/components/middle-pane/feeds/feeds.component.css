@@ -91,3 +91,13 @@
     margin-bottom: 30px;
     border-bottom: 0.5px solid #3a3939;
 }
+
+
+@media  (max-width:980px){
+
+    .feed-pro-img img {
+        width: 49px;
+        height: 49px;
+        margin: 3px 3px;
+      }
+}
