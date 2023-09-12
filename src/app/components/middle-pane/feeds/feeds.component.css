@@ -49,6 +49,13 @@
     ;
     border-radius: 3px;
 }
+.feed-middlepart{
+    display :flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
 
 .feed-lowerpart{
     font-size: 2em;
@@ -64,7 +71,11 @@
     margin-left: 15px;
 }
 .bookmark{
-    margin-left: 440px;
+    float: right;
+    right:20px;
+}
+.liked{
+    color:rgb(219, 33, 64)
 }
 
 .likes p{

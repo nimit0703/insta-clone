@@ -7,7 +7,10 @@ import { Feed } from '../feed.model';
   styleUrls: ['./feeds.component.css']
 })
 export class FeedsComponent {
-
+  
+  isLiked = true; // Initial state
+  isBookmarked = false;
+  
   feeds:Feed[] = [
     new Feed("johndoe_123","Sydney, Australia","10m","p-1","55","better worls"),
     new Feed("sarah.smith_456","Tokyo, Japan","58m","p-2","47","live in peace"),
@@ -19,8 +22,15 @@ export class FeedsComponent {
     new Feed("jennifer.davis_888","Cairo, Egypt","3w","p-5","2","best vibes"),
     new Feed("william_clark_321","Vancouver, Canada","43w","p-6","100k","rockkkk"),
     new Feed("amanda.jackson_444","Dubai, United Arab Emirates","3y","p-7","433","dance monkey"),
-
-  ]
+  ];
+  
+  
+  toogleBookmark(){
+    this.isBookmarked = !this.isBookmarked;
+  }
+  toggleLike() {
+    this.isLiked = !this.isLiked;
+  }
 
 }
 

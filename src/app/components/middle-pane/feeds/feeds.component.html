@@ -5,36 +5,54 @@
         <div class="">
           <div class="feed-pro-img">
             <img
-              src="assets/posts/{{f.feed}}.jpg"
+              src="assets/posts/{{ f.feed }}.jpg"
               class="circle img-fluid rounded-circle"
               alt="{{ 'd' }}"
             />
           </div>
         </div>
         <div class="user">
-          <p class="user-name">{{f.user}} <span class="time"> • {{f.timeBefore}}</span></p>
-          <p class="location">{{f.location}}</p>
+          <p class="user-name">
+            {{ f.user }} <span class="time"> • {{ f.timeBefore }}</span>
+          </p>
+          <p class="location">{{ f.location }}</p>
         </div>
         <div class="more-icon">
           <i class="bi bi-three-dots"></i>
         </div>
       </div>
       <div class="feed-middlepart">
-        <img src="assets/posts/{{f.feed}}.jpg" alt="" class="img-fluid feed-post">
-      </div>
-      <div class="feed-lowerpart">
-        <i class="bi bi-heart like"></i>
-        <span class="cmt"><i class="bi bi-chat cmt"></i></span>
-        <span class="bookmark"> <i class="bi bi-bookmark "></i></span>
-        <div class="likes">
-            <p>{{f.likes}} likes</p>
-            <p>{{f.user}}   "<span class="user-caption">{{f.caption}}</span>'</p>
-        </div>
-        <div class="comments">
-            <p class="comment">view all +{{f.likes}} comments</p>
-        </div>
-        <div class="add-comments">
+        <img
+          src="assets/posts/{{ f.feed }}.jpg"
+          alt=""
+          class="img-fluid feed-post"
+        />
+        <div class="feed-lowerpart container-fluid">
+          <i
+            [class]="isLiked ? 'bi bi-heart-fill liked' : 'bi bi-heart like'"
+            (click)="toggleLike()"
+          ></i>
+          <span class="cmt"><i class="bi bi-chat cmt"></i></span>
+          <span class="extra-space"></span>
+          <span class="bookmark" id="bookmark-btn">
+            <i
+              [class]="isBookmarked ? 'bi bi-bookmark-fill' : 'bi bi-bookmark'"
+              (click)="toogleBookmark()"
+            ></i>
+          </span>
+          <div class="likes">
+            <p>{{ f.likes }} likes</p>
+            <p>
+              {{ f.user }} "<span class="user-caption">{{ f.caption }}</span
+              >'
+            </p>
+          </div>
+          <div class="comments">
+            <p class="comment">view all +{{ f.likes }} comments</p>
+          </div>
+          <div class="add-comments">
             <p class="add-comment">Add a comment</p>
+          </div>
         </div>
       </div>
       <div class="bottom-line"></div>
